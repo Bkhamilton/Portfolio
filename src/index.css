@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik'), local('Rubik-Regular'), url(./fonts/Rubik/static/Rubik-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Rubik'), local('Rubik-Regular'), url(./fonts/Rubik/static/Rubik-Bold.ttf) format('truetype');
+}
+
+.header-text {
+  padding: 0% 16vw;
+}

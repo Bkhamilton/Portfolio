@@ -1,0 +1,27 @@
+.about-me {
+    background-color: #121212;
+  }
+
+  .about-me h1,h3 {
+    margin: 0rem;
+  }
+  
+  .about-me-header {
+    padding: 6% 20vw 3% 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .about-me-logo {
+    padding: 3% 20vw 6% 20vw;
+    gap: 1vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }

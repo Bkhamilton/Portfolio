@@ -1,0 +1,123 @@
+.intro {
+    text-align: center;
+    background-color: #1F2933;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 50vh;
+    padding: 2%;
+  }
+
+  .welcome-message {
+    padding: 2% 1%;
+    margin-right: 6%;
+  }
+  
+  .intro p {
+    color: white;
+    font-size: 2.2vw;
+    font-family: "Rubik", sans-serif;
+    margin: 0rem;
+    text-transform: uppercase;
+    transition: font-size 0.3s ease, opacity 0.4s ease, transform 0.2s ease;  /* Add transition property */
+  }
+
+  .fancy:hover {
+    font-size: 2.7vw; /* Increase the font size on hover */
+    transition-delay: 0.2s;
+  }
+
+  .first-name > .letter {
+    display: inline-block;
+  }
+  .last-name > .letter {
+    display: inline-block;
+  }
+
+  .letter {
+    transition: transform 0.2s ease;
+  }
+
+  .first-name:hover > .letter:nth-child(1) {
+    transform: translateX(0%);
+    transition-delay: 0s; /* Add transition delay */
+  }
+  .first-name:hover > .letter:nth-child(2) {
+    transform: translateX(8%);
+    transition-delay: 0.2s; /* Add transition delay */
+  }
+  .first-name:hover > .letter:nth-child(3) {
+    transform: translateX(16%);
+    transition-delay: 0.4s; /* Add transition delay */
+  }
+  
+  .last-name:hover > .letter:nth-child(1) {
+    transform: translateX(-12%);
+    transition-delay: 0.1s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(2) {
+    transform: translateX(-6%);
+    transition-delay: 0.2s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(3) {
+    transform: translateX(0%);
+    transition-delay: 0.3s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(4) {
+    transform: translateX(6%);
+    transition-delay: 0.4s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(5) {
+    transform: translateX(12%);
+    transition-delay: 0.5s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(6) {
+    transform: translateX(18%);
+    transition-delay: 0.6s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(7) {
+    transform: translateX(24%);
+    transition-delay: 0.7s; /* Add transition delay */
+  }
+  .last-name:hover > .letter:nth-child(8) {
+    transform: translateX(30%);
+    transition-delay: 0.8s; /* Add transition delay */
+  }
+
+  .last-name > .letter {
+    display: inline-block;
+  }
+
+  .line {
+    display: flex;
+    justify-content: space-between;
+    width: 19vw;
+  }
+
+  #text:has(.fancy:hover) .word:not(.fancy:hover) {
+    opacity: 0.2;
+    font-size: 2vw;
+  }
+
+  .profile-pic {
+    width: 9.9vw;
+    height: 9.9vw;
+    display: grid;
+    place-items: center;
+  }
+
+  .pfp-image {
+    height: 9.8vw;
+    width: 9.8vw;
+    border-radius: 50%;
+    border: 2px solid #768D90;
+    transition: all 0.2s ease;
+  }
+
+  .pfp-image:hover, .pfp-image.active-hover {
+    border: 6px solid #768D90;
+    height: 9.2vw;
+    width: 9.2vw;
+    box-shadow: 0px 0px 10px 5px #768D90;
+  }

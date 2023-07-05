@@ -1,0 +1,19 @@
+.resume {
+    text-align: center;
+  }
+
+  .resume h1,h3 {
+    margin: 0rem;
+  }
+  
+  .resume-header {
+    background-color: #121212;
+    padding: 4% 0vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
